@@ -1,0 +1,10 @@
+info:
+  description: CAS Configuration
+
+server:
+  ssl:
+    enabled: false
+
+cas:
+  tgc:
+    secure: false
