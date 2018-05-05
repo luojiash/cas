@@ -3,8 +3,11 @@ info:
 
 server:
   ssl:
-    enabled: false
+    enabled: true
+    key-store: classpath:tomcat.jks
+    key-store-password: 123456
+    key-password: 123456
 
 cas:
   tgc:
-    secure: false
+    secure: true
